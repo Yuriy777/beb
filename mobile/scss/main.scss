@@ -50,11 +50,13 @@ body {
   height: 100%;
   overflow-x: hidden; 
   .cloud-l1 {
+    opacity: 0.7;
     @include media ('<=tablet') {
       display: none;
     }
   }
   .cloud-r1 {
+    opacity: 0.7;
      @include media ('<=tablet') {
       display: none;
     }
@@ -114,12 +116,14 @@ body {
   top:  9%;
   left: 2%;
   z-index:  5;
+  opacity: 0.7;
 }
 .cloud-l2 {
   position: absolute; 
   top:  16%;
   left: 23%;
   z-index:  5;
+  opacity: 0.7;
 }
 .land {
   position: absolute;
@@ -143,12 +147,14 @@ body {
   top:  3%;
   right: 4%;
   z-index:  5;
+  opacity: 0.7;
 }
 .cloud-r2 {
   position: absolute; 
   top:  36%;
   right: 25%;
   z-index:  5;
+  opacity: 0.7;
 }
 .tree-l1 {
   position: absolute; 
@@ -320,7 +326,7 @@ body {
     color:#fff;
     margin-bottom: 10px;
     font-family: 'oswald_regularregular';
-    text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
     @include media ('<=fullscreen') {
       font-size: 45px;
       margin-bottom: 4px;
@@ -337,7 +343,7 @@ body {
     color: #fff;
     line-height: 20px;
     margin-bottom: 0;
-    text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
   }
   .fontf {
     color: #fece0b;
@@ -446,7 +452,7 @@ body {
   p {
     font-size: 48px;
     color: #fece0b;
-    text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
     margin-bottom: 20px;
      @include media ('<=fullscreen') {
       margin-bottom: 15px;
@@ -579,6 +585,7 @@ body {
   .cloud-l2 {
     top: 47%;
     left: 0;
+    opacity: 0.7;
     @include media ('<=desktop') {
       display: none;
     }
@@ -587,6 +594,7 @@ body {
   .cloud-l1 {
     top: 2%;
     left: 0%;
+    opacity: 0.7;
     @include media ('<=desktop') {
       display: none;
     }
@@ -596,10 +604,12 @@ body {
       top: 36%;
       right: 25%;
       z-index: 5;
+      opacity: 0.7;
     }
   .cloud-r1 {
       top: 6%;
       right: 3%;
+      opacity: 0.7;
       @include media ('<=tablet') {
       display: none;
     }
@@ -609,6 +619,7 @@ body {
     top: 8%;
     left: 22%;
     z-index: 5;
+    opacity: 0.7;
      @include media ('<=tablet') {
       display: none;
     }
@@ -618,6 +629,7 @@ body {
     top: 25%;
     right: 0;
     z-index: 5;
+    opacity: 0.7;
     @include media ('<=desktop') {
       display: none;
     }
@@ -701,7 +713,7 @@ body {
   font-size: 30px;
   text-align: center;
   color: #fff;
-  text-shadow: 2px 2px 2px rgba(50, 75, 102, .15);
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
   @include media ('<=fullscreen') {
       font-size: 22px;
     }
@@ -794,17 +806,21 @@ body {
     }
   }
   .cloud-r1 {
+    opacity: 0.7;
      @include media ('<=desktop') {
         display: none;
     }
   }
   .cloud-l1 {
+    opacity: 0.7;
     left: -20%;
   }
   .cloud-r3 {
+    opacity: 0.7;
     right: -20%;
   }
   .cloud-l2 {
+    opacity: 0.7;
     top: 47%;
     left: -20%;
   }
@@ -856,7 +872,7 @@ body {
       font-size: 30px;
       color:#fff;
       text-transform: uppercase;
-      text-shadow: 2px 4px 3px rgba(50, 75, 102, .15);
+      text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
       font-weight: normal;
       @include media ('<=desktop') {
         font-size: 25px;
@@ -879,7 +895,7 @@ body {
       color: #fece0b;
       font-size: 36px;
       text-align: left;
-      text-shadow: 2px 4px 3px rgba(50, 75, 102, .15);
+      text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
       @include media ('<=fullscreen') {
         font-size: 28px;
       }
@@ -921,9 +937,10 @@ section.general-th {
   .cloud-l3 {
     top: 7%;
     left: 54%;
-
+    opacity: 0.7;
   }
   .cloud-l2 {
+    opacity: 0.7;
     @include media ('<=desktop') {
       display: none;
     }
@@ -931,6 +948,7 @@ section.general-th {
   .cloud-r1 {
     top: 9%;
     right: -1%;
+    opacity: 0.7;
     @include media ('<=desktop') {
       display: none;
     }
@@ -938,6 +956,7 @@ section.general-th {
   .cloud-r2 {
     top: 31%;
     right: 19%;
+    opacity: 0.7;
     @include media ('<=widescreen') {
       display: none;
     }
@@ -945,6 +964,7 @@ section.general-th {
   .cloud-r3 {
     top: 40%;
     right: -16%;
+    opacity: 0.7;
     @include media ('<=widescreen') {
       display: none;
     }
@@ -1068,6 +1088,46 @@ section.general-th {
     }
   }
 }
+.btn-oranges {
+  display: inline-block;
+  background: #ff7603;
+  white-space: nowrap;
+  text-decoration: none;
+  position: relative;
+  color:#fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  border: 0;
+  @include media ('<=fullscreen') {
+      margin-bottom: 20px;
+   }
+
+  &:hover {
+    background: #f78321;
+    box-shadow: 0 0 1px #ccc;
+  }
+  &:before{
+    content: "";
+    position: absolute;
+    left: -3px;
+    right: 2px;
+    bottom: -6px;
+    height: 6px;
+    transform: skewX(-45deg);
+    background: #9f4e09;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 3px;
+    bottom: -4px;
+    width: 6px;
+    transform: skewX(0deg) skewY(-45deg);
+    background: #d56d16;
+  }
+}
 .s3-headsection {
   top: auto;
   bottom: 15%;
@@ -1160,21 +1220,26 @@ section.general-th {
   }
   .cloud-l3 {
     left: 81%;
+    opacity: 0.7;
   }
   .cloud-l2 {
+    opacity: 0.7;
     @include media ('<=tablet') {
         display: none;
     }
   }
   .cloud-r1 {
+    opacity: 0.7;
     top: 6%;
     right: auto;
     left: 18%;
   }
   .cloud-r3 {
     top: 44%;
+    opacity: 0.7;
   }
   .cloud-r2 {
+    opacity: 0.7;
     top: -3%;
     right: 0;
     @include media ('<=tablet') {
@@ -1218,18 +1283,22 @@ section.general-th {
     height: 0;
   }
   .cloud-l2 {
+    opacity: 0.7;
     img {
       width: 40%;
     }
   }
   .cloud-r3 {
+    opacity: 0.7;
       width: 30%;
   }
   .cloud-l2 {
+    opacity: 0.7;
     top: 62%;
     left: 20%;
   }
   .cloud-l3 {
+    opacity: 0.7;
     top: 46%;
     left: 0%;
   }
@@ -1438,7 +1507,7 @@ section.general-th {
     left: 0;
     right: 0;
     padding: 0 10px;
-    text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
     
     @include media ('<=full') {
       font-size: 42px;
@@ -1520,7 +1589,7 @@ section.general-th {
   .lsc-text {
     font-size: 72px;
     color:#fece0b;
-    text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
     span {
       color: #fff;
     }

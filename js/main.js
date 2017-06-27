@@ -938,9 +938,8 @@ $('.plane3').scroolly([
         cssTo: {
             'left': '100%',
             'opacity': '1',
-            'top': '100%',
-            'width': '5.001%',
-            'transform': 'rotate(80deg)'
+            'top': '0%',
+            'width': '5.001%'
         }
     },
     {
@@ -949,9 +948,8 @@ $('.plane3').scroolly([
         css: {
             'left': '100%',
             'opacity': '1',
-            'top': '100%',
-            'width': '5%',
-            'transform': 'rotate(80deg)'
+            'top': '0%',
+            'width': '5%'
         }
     }
 
@@ -1009,9 +1007,8 @@ $('.planes2').scroolly([
         cssTo: {
             'left': '100.001%',
             'opacity': '1',
-            'top': '80.001%',
-            'width': '7.001%',
-            'transform': 'rotate(80deg)'
+            'top': '0%',
+            'width': '7.001%'
         }
     },
     {
@@ -1020,9 +1017,8 @@ $('.planes2').scroolly([
         css: {
             'left': '100.001%',
             'opacity': '1',
-            'top': '80.001%',
-            'width': '7.001%',
-            'transform': 'rotate(80deg)'
+            'top': '0%',
+            'width': '7.001%'
         }
     }
 ], $('.wrapper'));
@@ -1044,15 +1040,13 @@ $('.planes3').scroolly([
                'left': '20.001%',
                'opacity': '1',
                'top': '90.001%',
-               'width': '1.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '1.001%'
         },
         cssTo: {
             'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
-               'width': '45.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '45.001%'
         }
     },
     {
@@ -1062,8 +1056,7 @@ $('.planes3').scroolly([
                'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
-               'width': '45.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '45.001%'
         },
     },
     {
@@ -1073,15 +1066,13 @@ $('.planes3').scroolly([
                'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
-               'width': '45.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '45.001%'
         },
         cssTo: {
             'left': '100.001%',
             'opacity': '1',
-            'top': '80.001%',
-            'width': '7.001%',
-            'transform': 'rotate(80.001deg)'
+            'top': '0%',
+            'width': '7.001%'
         }
     },
     {
@@ -1090,9 +1081,8 @@ $('.planes3').scroolly([
         css: {
             'left': '100.001%',
             'opacity': '1',
-            'top': '80.001%',
-            'width': '7.001%',
-            'transform': 'rotate(80.001deg)'
+            'top': '0%',
+            'width': '7.001%'
         }
     }
 ], $('.wrapper'));
@@ -1103,8 +1093,7 @@ $('.planes4').scroolly([
         css: {
                'left': '20.001%',
                'top': '100.001%',
-               'opacity': '0',
-               'transform': 'rotate(0.001deg)'
+               'opacity': '0'
         }
     },
     {
@@ -1114,15 +1103,13 @@ $('.planes4').scroolly([
                'left': '20.001%',
                'opacity': '1',
                'top': '90.001%',
-               'width': '1.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '1.001%'
         },
         cssTo: {
             'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
-               'width': '36.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '36.001%'
         }
     },
     {
@@ -1132,8 +1119,7 @@ $('.planes4').scroolly([
                'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
-               'width': '36.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '36.001%'
         },
     },
     {
@@ -1143,15 +1129,13 @@ $('.planes4').scroolly([
                'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
-               'width': '36.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '36.001%'
         },
         cssTo: {
             'left': '120.001%',
             'opacity': '1',
-            'top': '80.001%',
-            'width': '7.001%',
-            'transform': 'rotate(80.001deg)'
+            'top': '0%',
+            'width': '7.001%'
         }
     },
     {
@@ -1160,9 +1144,8 @@ $('.planes4').scroolly([
         css: {
             'left': '120.001%',
             'opacity': '1',
-            'top': '80.001%',
-            'width': '7.001%',
-            'transform': 'rotate(80.001deg)'
+            'top': '0%',
+            'width': '7.001%'
         }
     }
 ], $('.wrapper'));
@@ -1173,8 +1156,7 @@ $('.planes5').scroolly([
         css: {
                'left': '20.001%',
                'top': '100.001%',
-               'opacity': '0',
-               'transform': 'rotate(0.001deg)'
+               'opacity': '0'
         }
     },
     {
@@ -1184,15 +1166,13 @@ $('.planes5').scroolly([
                'left': '20.001%',
                'opacity': '1',
                'top': '90.001%',
-               'width': '1.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '1.001%'
         },
         cssTo: {
             'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
-               'width': '45.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '45.001%'
         }
     },
     {
@@ -1202,8 +1182,7 @@ $('.planes5').scroolly([
             'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
-               'width': '45.001%',
-               'transform': 'rotate(0.001deg)'
+               'width': '45.001%'
         }
     },
 ], $('.wrapper'));

@@ -133,22 +133,26 @@ PRELOADER STYLING
 .cloud-l3 {
   position: absolute; 
   top: 7%;
-   width: 7%; 
+   width: 7%;
+  opacity: 0.7; 
 }
 .cloud-l4 {
   position: absolute; 
   top: 15%;
-  width: 20%; 
+  width: 20%;
+  opacity: 0.7; 
 }
 .cloud-r3 {
   position: absolute;
   top: 30%;
   width:  28%;
+  opacity: 0.7;
 }
 .cloud-r6 {
   position: absolute; 
   top: 12%;
-  width: 5%;  
+  width: 5%;
+  opacity: 0.7;  
 }
 .section {
   position: fixed;
@@ -177,7 +181,7 @@ PRELOADER STYLING
   left:50%;
   transform: translateX(-50%) translateY(-50%);
   color: #fece0b;
-  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.15);}
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);}
 .loader {
     border: 4px solid #f3f3f3; /* Light grey */
     border-top: 4px solid #fece0b; /* Blue */
@@ -231,12 +235,14 @@ PRELOADER STYLING
   top:  9%;
   left: 2%;
   z-index:  5;
+  opacity: 0.7;
 }
 .cloud-l2 {
   position: absolute; 
   top:  20%;
   width:  7%;
   z-index:  5;
+  opacity: 0.7;
 }
 .land {
   position: absolute;
@@ -264,17 +270,18 @@ PRELOADER STYLING
   img {
     vertical-align: bottom;
   }
-
 }
 .cloud-r1 {
   position: absolute; 
   top:  3%;
   right: 4%;
   z-index:  5;
+  opacity: 0.7;
 }
 .cloud-r2 {
   position: absolute; 
   z-index:  5;
+  opacity: 0.7;
 }
 .tree-l1 {
   position: absolute; 
@@ -432,7 +439,7 @@ PRELOADER STYLING
     color:#fff;
     margin-bottom: 10px;
     font-family: 'oswald_regularregular';
-    text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
     @include media ('<=fullscreen') {
       font-size: 45px;
       margin-bottom: 4px;
@@ -449,7 +456,7 @@ PRELOADER STYLING
     color: #fff;
     line-height: 20px;
     margin-bottom: 0;
-    text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
   }
   .fontf {
     color: #fece0b;
@@ -558,7 +565,7 @@ PRELOADER STYLING
   p {
     font-size: 48px;
     color: #fece0b;
-    text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
     margin-bottom: 20px;
      @include media ('<=fullscreen') {
       margin-bottom: 15px;
@@ -765,13 +772,13 @@ PRELOADER STYLING
   font-size: 30px;
   text-align: center;
   color: #fff;
-  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.15);
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
    @include media ('<=fullsc') {
       padding: 20px 30px;
       font-size: 19px;
     }
   @include media ('<=desktop') {
-      text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.15);
+      text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
       padding: 10px;
     }
   @include media ('<=tablet') {
@@ -887,7 +894,7 @@ PRELOADER STYLING
       font-size: 30px;
       color:#fff;
       text-transform: uppercase;
-      text-shadow: 2px 4px 3px rgba(50, 75, 102, .15);
+      text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
       font-weight: normal;
       @include media ('<=fullsc') {
         font-size: 25px;
@@ -913,7 +920,7 @@ PRELOADER STYLING
       color: #fece0b;
       font-size: 36px;
       text-align: left;
-      text-shadow: 2px 4px 3px rgba(50, 75, 102, .15);
+      text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
 
       @include media ('<=fullsc') {
         font-size: 20px;
@@ -1587,7 +1594,7 @@ section.general-th {
 .lsc-text {
   font-size: 72px;
   color:#fece0b;
-  text-shadow: 0 4px 3px rgba(50, 75, 102, .15);
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
   span {
     color: #fff;
   }
