@@ -1101,7 +1101,7 @@ body {
     color: #fff;
     margin-bottom: 10px;
     font-family: 'oswald_regularregular';
-    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7); }
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7); }
     @media (max-width: 1400px) {
       .s1texth h1 {
         font-size: 45px;
@@ -1117,7 +1117,7 @@ body {
     color: #fff;
     line-height: 20px;
     margin-bottom: 0;
-    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7); }
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7); }
   .s1texth .fontf {
     color: #fece0b;
     font-size: 48px;
@@ -1222,7 +1222,7 @@ body {
   .s1b-sect p {
     font-size: 48px;
     color: #fece0b;
-    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
     margin-bottom: 20px; }
     @media (max-width: 1400px) {
       .s1b-sect p {
@@ -1462,7 +1462,7 @@ body {
   font-size: 30px;
   text-align: center;
   color: #fff;
-  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7); }
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7); }
   @media (max-width: 1400px) {
     .s2texth {
       font-size: 22px; } }
@@ -1612,7 +1612,7 @@ body {
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
-    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7);
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
     font-weight: normal; }
     @media (max-width: 1024px) {
       .general-sc .icon-blist h4 {
@@ -1633,7 +1633,7 @@ body {
     color: #fece0b;
     font-size: 36px;
     text-align: left;
-    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7); }
+    text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7); }
     @media (max-width: 1400px) {
       .general-sc .icon-blist li {
         font-size: 28px; } }
@@ -2272,7 +2272,7 @@ section.general-th .bottom-background:after {
   left: 0;
   right: 0;
   padding: 0 10px;
-  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7); }
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7); }
   @media (max-width: 1800px) {
     .general-sev .text-bot {
       font-size: 42px; } }
@@ -2345,7 +2345,7 @@ section.general-th .bottom-background:after {
 .general-eight .lsc-text {
   font-size: 72px;
   color: #fece0b;
-  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0px 0px 1px rgba(50, 75, 102, 0.7); }
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7); }
   .general-eight .lsc-text span {
     color: #fff; }
   .general-eight .lsc-text p {
