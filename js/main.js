@@ -6,14 +6,8 @@ function firstFn(e, speedSc){
   if(!flag){
     return;  
   }
+  console.log(22);
   secondFn(e, speedSc);
-}
-function thirdFn(e, speedSc){
-  // Если флаг равен false, происходит выход
-  if(!flags){
-    return;  
-  }
-  fourFn(e, speedSc);
 }
 $(document).on('wheel MozMousePixelScroll mousewheel DOMMouseScroll durationThreshold verticalDistanceThreshold', function (e) {
     e.preventDefault();//prevent the default mousewheel scrolling
@@ -44,30 +38,30 @@ function secondFn(e, speedSc) {
   flag = false;
    var promise = new Promise(function(a, d)  {
     var heightH = $(window).scrollTop();
-    if (heightH < 2200 ) {
-        ps = 0;
-    }
-    if ( heightH < 6000  && heightH > 2200) {
-        ps = 1;
-    }
-    if (6000 < heightH && 7400 > heightH) {
-        ps = 2;
-    }
-    if (7400 < heightH && 10000 > heightH) {
-        ps = 3;
-    }
-    if (10000 < heightH && 12300 > heightH) {
-        ps = 4;
-    }
-    if (12300 < heightH && 14900 > heightH) {
-        ps = 5;
-    }
-    if (14900 < heightH && 19000 > heightH) {
-        ps = 6;
-    }
-    if (19000 < heightH) {
-         ps = 7;
-    }
+    // if (heightH < 2200 ) {
+    //     ps = 0;
+    // }
+    // if ( heightH < 6000  && heightH > 2200) {
+    //     ps = 1;
+    // }
+    // if (6000 < heightH && 7400 > heightH) {
+    //     ps = 2;
+    // }
+    // if (7400 < heightH && 10000 > heightH) {
+    //     ps = 3;
+    // }
+    // if (10000 < heightH && 12300 > heightH) {
+    //     ps = 4;
+    // }
+    // if (12300 < heightH && 14900 > heightH) {
+    //     ps = 5;
+    // }
+    // if (14900 < heightH && 19000 > heightH) {
+    //     ps = 6;
+    // }
+    // if (19000 < heightH) {
+    //      ps = 7;
+    // }
     ps = ps + e;
     (ps < 0) ? (ps = 0) : ps;
     (ps > 7) ? (ps = 7) : ps;
@@ -258,26 +252,26 @@ $('.land').scroolly([
 $('.mountains-background').scroolly([
     {
         from: 'doc-top',
-        to: 'doc-top + 42doc = vp-top',
+        to: 'doc-top + 47doc = vp-top',
          css: {
-            'height': '30%'
+            'bottom': '-0%'
         }
     },
     {
-        from: 'doc-top + 42doc = vp-top',
+        from: 'doc-top + 47doc = vp-top',
         to: 'doc-top + 67doc = vp-top',
          cssFrom: {
-            'height': '30%'
+            'bottom': '-0%'
         },
         cssTo: {
-            'height': '0%'
+            'bottom': '-30%'
         }
     },
     {
         from: 'doc-top + 67doc = vp-top',
         to: 'doc-top + 100doc = vp-top',
          css: {
-            'height': '0%'
+            'bottom': '-30%'
         }
     }
 ], $('.wrapper'));
@@ -285,26 +279,26 @@ $('.mountains-background').scroolly([
 $('.mountains-front').scroolly([
     {
         from: 'doc-top',
-        to: 'doc-top + 42doc = vp-top',
+        to: 'doc-top + 47doc = vp-top',
          css: {
-            'height': '30%'
+            'bottom': '-0%'
         }
     },
     {
-        from: 'doc-top + 42doc = vp-top',
+        from: 'doc-top + 47doc = vp-top',
         to: 'doc-top + 67doc = vp-top',
          cssFrom: {
-            'height': '30%'
+            'bottom': '-0%'
         },
         cssTo: {
-            'height': '0%'
+            'bottom': '-30%'
         }
     },
     {
         from: 'doc-top + 67doc = vp-top',
         to: 'doc-top + 100doc = vp-top',
          css: {
-            'height': '0%'
+            'bottom': '-30%'
         }
     }
 ], $('.wrapper'));
@@ -859,7 +853,7 @@ $('.s3-headsection').scroolly([
         from: 'doc-top = vp-top',
         to: 'doc-top + 25doc = vp-top',
         css: {
-            'display': 'block',
+            'display': 'none',
             'opacity': '0',
             'transition': 'all 0.7s ease'
         }
@@ -1089,7 +1083,7 @@ $('.planes3').scroolly([
 $('.planes4').scroolly([
     {
         from: 'doc-top = vp-top',
-        to: 'doc-top + 71doc = vp-top',
+        to: 'doc-top + 67doc = vp-top',
         css: {
                'left': '20.001%',
                'top': '100.001%',
@@ -1097,7 +1091,7 @@ $('.planes4').scroolly([
         }
     },
     {
-        from: 'doc-top + 71doc = vp-top',
+        from: 'doc-top + 67doc = vp-top',
         to: 'doc-top + 74doc = vp-top',
         cssFrom: {
                'left': '20.001%',
@@ -1440,7 +1434,7 @@ $('.cloud-r6').scroolly([
 $('.cloud-l2').scroolly([
     {
         from: 'doc-top = vp-top',
-        to: 'doc-top + 28doc = vp-top',
+        to: 'doc-top + 35doc = vp-top',
         cssFrom: {
             'left': '-25%'
         },
@@ -1449,7 +1443,7 @@ $('.cloud-l2').scroolly([
         }
     },
     {
-        from: 'doc-top + 28doc = vp-top',
+        from: 'doc-top + 35doc = vp-top',
         to: 'doc-top + 60doc = vp-top',
         cssFrom: {
             'left': '0%'

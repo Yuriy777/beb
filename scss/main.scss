@@ -144,7 +144,7 @@ PRELOADER STYLING
 }
 .cloud-r3 {
   position: absolute;
-  top: 30%;
+  top: 44%;
   width:  28%;
   opacity: 0.7;
 }
@@ -210,6 +210,7 @@ PRELOADER STYLING
 
   img {
     vertical-align: bottom;
+    width: 100%;
   }
 }
 .mountains-front {
@@ -228,6 +229,7 @@ PRELOADER STYLING
 
   img {
     vertical-align: bottom;
+    width: 100%;
   }
 }
 .cloud-l1 {
@@ -269,6 +271,7 @@ PRELOADER STYLING
 
   img {
     vertical-align: bottom;
+    width: 100%;
   }
 }
 .cloud-r1 {
@@ -768,7 +771,8 @@ PRELOADER STYLING
     }
 
 }
-.s2texth {
+.cs-s2 {
+  .s2texth {
   font-size: 30px;
   text-align: center;
   color: #fff;
@@ -776,6 +780,24 @@ PRELOADER STYLING
    @include media ('<=fullsc') {
       padding: 20px 30px;
       font-size: 19px;
+    }
+  @include media ('<=desktop') {
+      text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
+      padding: 10px;
+    }
+  @include media ('<=tablet') {
+      font-size: 16px;
+    }
+  }
+}
+.s2texth {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
+   @include media ('<=fullsc') {
+      padding: 20px 30px;
+      font-size: 27px;
     }
   @include media ('<=desktop') {
       text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
@@ -1020,7 +1042,7 @@ section.general-th {
   }
 }
 .s4-headsection {
-  padding:  10px 0 0 50px;
+  padding:  10px 0 0 15px;
   position: relative; 
   z-index:  10;
   @include media ('<=desktop') {
@@ -1035,15 +1057,12 @@ section.general-th {
 }
 .planes2 {
    position: absolute;
-  z-index:  20;
 }
 .planes3 {
   position: absolute;
-  z-index:  21;
 }
 .planes4 {
   position: absolute;
-  z-index:  22;
 }
 .planes4 div {
   position: relative;
@@ -1065,7 +1084,6 @@ section.general-th {
 }
 .planes5 {
   position: absolute;
-  z-index:  23;
 }
 .s2texth {
   text-align: left;
@@ -1084,6 +1102,7 @@ section.general-th {
   li {
     position: relative;
     padding-left: 20px;
+    margin-bottom: 5px;
     @include media ('<=phone') {
       padding-left: 5px;
     }
@@ -1100,12 +1119,14 @@ section.general-th {
   bottom: 15%;
   left: auto;
   right: 50px;
-  max-width: 40%;
+  width: 600px;
+  border-radius: 20px;
+  border: 2px dashed #fff;
   position: absolute;
   text-align: center;
-  padding: 30px 50px;
+  padding: 30px 40px;
   z-index:  10;
-  background: url(../images/border2.png) no-repeat 50% 50%;
+  background: rgba(0, 0, 0, .2);
   background-size: 100% 100%;
   @include media ('<=fullsc') {
     padding: 20px 0;
@@ -1117,6 +1138,7 @@ section.general-th {
     position: relative;
     margin: 0 auto 10px;
     max-width: 600px;
+    width: auto;
     right: auto;
     bottom: auto;
     padding: 10px; 
@@ -1127,6 +1149,8 @@ section.general-th {
 
   p {
     color: #fece0b;
+    letter-spacing: 1px;
+    word-spacing: 2px;
   }
   .s2texth {
     text-align: center;
@@ -1145,7 +1169,6 @@ section.general-th {
   position: absolute;
   top: 100%;
   left: 28%;
-  z-index: 13;
   text-align: center;
   
   @include media ('<=desktop') {
@@ -1182,6 +1205,14 @@ section.general-th {
     bottom:-87px;
   }
 
+  &:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1px;
+  }
+
 
   span {
     position: relative;
@@ -1206,7 +1237,6 @@ section.general-th {
     position: absolute;
     left: 37%;
     top: 40%;
-    z-index: 50;
     text-align: center;
     @include media ('<=desktop') {
       position: relative;

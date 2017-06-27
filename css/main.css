@@ -910,7 +910,7 @@ PRELOADER STYLING
 
 .cloud-r3 {
   position: absolute;
-  top: 30%;
+  top: 44%;
   width: 28%;
   opacity: 0.7; }
 
@@ -991,7 +991,8 @@ PRELOADER STYLING
     margin-left: -2px;
     display: inline-block; }
   .mountains-background img {
-    vertical-align: bottom; }
+    vertical-align: bottom;
+    width: 100%; }
 
 .mountains-front {
   position: absolute;
@@ -1006,7 +1007,8 @@ PRELOADER STYLING
     margin-left: -2px;
     display: inline-block; }
   .mountains-front img {
-    vertical-align: bottom; }
+    vertical-align: bottom;
+    width: 100%; }
 
 .cloud-l1 {
   position: absolute;
@@ -1043,7 +1045,8 @@ PRELOADER STYLING
     margin-left: -2px;
     display: inline-block; }
   .land img {
-    vertical-align: bottom; }
+    vertical-align: bottom;
+    width: 100%; }
 
 .cloud-r1 {
   position: absolute;
@@ -1510,6 +1513,23 @@ PRELOADER STYLING
       max-width: 100%;
       width: 100%; } }
 
+.cs-s2 .s2texth {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7); }
+  @media (max-width: 1500px) {
+    .cs-s2 .s2texth {
+      padding: 20px 30px;
+      font-size: 19px; } }
+  @media (max-width: 1024px) {
+    .cs-s2 .s2texth {
+      text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
+      padding: 10px; } }
+  @media (max-width: 768px) {
+    .cs-s2 .s2texth {
+      font-size: 16px; } }
+
 .s2texth {
   font-size: 30px;
   text-align: center;
@@ -1518,7 +1538,7 @@ PRELOADER STYLING
   @media (max-width: 1500px) {
     .s2texth {
       padding: 20px 30px;
-      font-size: 19px; } }
+      font-size: 27px; } }
   @media (max-width: 1024px) {
     .s2texth {
       text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
@@ -1749,7 +1769,7 @@ section.general-th .bottom-background:after {
       margin-top: 0; } }
 
 .s4-headsection {
-  padding: 10px 0 0 50px;
+  padding: 10px 0 0 15px;
   position: relative;
   z-index: 10; }
   @media (max-width: 1024px) {
@@ -1763,16 +1783,13 @@ section.general-th .bottom-background:after {
       padding: 0; } }
 
 .planes2 {
-  position: absolute;
-  z-index: 20; }
+  position: absolute; }
 
 .planes3 {
-  position: absolute;
-  z-index: 21; }
+  position: absolute; }
 
 .planes4 {
-  position: absolute;
-  z-index: 22; }
+  position: absolute; }
 
 .planes4 div {
   position: relative; }
@@ -1810,8 +1827,7 @@ section.general-th .bottom-background:after {
   width: 70%; }
 
 .planes5 {
-  position: absolute;
-  z-index: 23; }
+  position: absolute; }
 
 .s2texth {
   text-align: left; }
@@ -1825,7 +1841,8 @@ section.general-th .bottom-background:after {
     margin-bottom: 15px; }
   .s2texth li {
     position: relative;
-    padding-left: 20px; }
+    padding-left: 20px;
+    margin-bottom: 5px; }
     @media (max-width: 480px) {
       .s2texth li {
         padding-left: 5px; } }
@@ -1840,12 +1857,14 @@ section.general-th .bottom-background:after {
   bottom: 15%;
   left: auto;
   right: 50px;
-  max-width: 40%;
+  width: 600px;
+  border-radius: 20px;
+  border: 2px dashed #fff;
   position: absolute;
   text-align: center;
-  padding: 30px 50px;
+  padding: 30px 40px;
   z-index: 10;
-  background: url(../images/border2.png) no-repeat 50% 50%;
+  background: rgba(0, 0, 0, 0.2);
   background-size: 100% 100%; }
   @media (max-width: 1500px) {
     .s3-headsection {
@@ -1858,6 +1877,7 @@ section.general-th .bottom-background:after {
       position: relative;
       margin: 0 auto 10px;
       max-width: 600px;
+      width: auto;
       right: auto;
       bottom: auto;
       padding: 10px; } }
@@ -1865,7 +1885,9 @@ section.general-th .bottom-background:after {
     .s3-headsection {
       width: 100%; } }
   .s3-headsection p {
-    color: #fece0b; }
+    color: #fece0b;
+    letter-spacing: 1px;
+    word-spacing: 2px; }
   .s3-headsection .s2texth {
     text-align: center; }
 
@@ -1881,7 +1903,6 @@ section.general-th .bottom-background:after {
   position: absolute;
   top: 100%;
   left: 28%;
-  z-index: 13;
   text-align: center; }
   @media (max-width: 1024px) {
     .plane3 {
@@ -1913,6 +1934,12 @@ section.general-th .bottom-background:after {
   @media (max-width: 480px) {
     .planet {
       bottom: -87px; } }
+  .planet:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1px; }
   .planet span {
     position: relative;
     display: inline-block; }
@@ -1932,7 +1959,6 @@ section.general-th .bottom-background:after {
   position: absolute;
   left: 37%;
   top: 40%;
-  z-index: 50;
   text-align: center; }
   @media (max-width: 1024px) {
     .general-fourth .plane3 {
