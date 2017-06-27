@@ -33,7 +33,7 @@ $(document).keydown(function( event ) {
   }
 });
 var position = [0, 3000, 6700, 9400, 11420, 14800, 17800, 19020];
-var ps;
+var ps = ps || 0;
 function secondFn(e, speedSc) {
   flag = false;
    var promise = new Promise(function(a, d)  {
