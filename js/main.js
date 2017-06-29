@@ -909,7 +909,7 @@ $('.plane3').scroolly([
     },
     {
         from: 'doc-top + 32doc = vp-top',
-        to: 'doc-top + 39doc = vp-top',
+        to: 'doc-top + 35doc = vp-top',
         css: {
             'left': '47.001%',
                'opacity': '1',
@@ -919,7 +919,7 @@ $('.plane3').scroolly([
         }
     },
     {
-        from: 'doc-top + 39doc = vp-top',
+        from: 'doc-top + 35doc = vp-top',
         to: 'doc-top + 40doc = vp-top',
         cssFrom: {
                'left': '47.001%',
@@ -950,7 +950,7 @@ $('.plane3').scroolly([
 $('.planes2').scroolly([
     {
         from: 'doc-top = vp-top',
-        to: 'doc-top + 45doc = vp-top',
+        to: 'doc-top + 43doc = vp-top',
         css: {
                'left': '20.001%',
                'top': '100.001%',
@@ -959,8 +959,8 @@ $('.planes2').scroolly([
         }
     },
     {
-        from: 'doc-top + 45doc = vp-top',
-        to: 'doc-top + 47doc = vp-top',
+        from: 'doc-top + 43doc = vp-top',
+        to: 'doc-top + 45doc = vp-top',
         cssFrom: {
                'left': '20.001%',
                'opacity': '1',
@@ -977,8 +977,8 @@ $('.planes2').scroolly([
         }
     },
     {
-        from: 'doc-top + 47doc = vp-top',
-        to: 'doc-top + 49doc = vp-top',
+        from: 'doc-top + 45doc = vp-top',
+        to: 'doc-top + 47doc = vp-top',
         css: {
                'left': '43.001%',
                'opacity': '1',
@@ -988,10 +988,10 @@ $('.planes2').scroolly([
         }
     },
     {
-        from: 'doc-top + 49doc = vp-top',
+        from: 'doc-top + 47doc = vp-top',
         to: 'doc-top + 52doc = vp-top',
         cssFrom: {
-               'left': '40.001%',
+               'left': '43.001%',
                'opacity': '1',
                'top': '26.001%',
                'width': '29.001%',
@@ -1018,7 +1018,7 @@ $('.planes2').scroolly([
 $('.planes3').scroolly([
     {
         from: 'doc-top = vp-top',
-        to: 'doc-top + 54doc = vp-top',
+        to: 'doc-top + 52doc = vp-top',
         css: {
                'left': '20.001%',
                'top': '100.001%',
@@ -1027,8 +1027,8 @@ $('.planes3').scroolly([
         }
     },
     {
-        from: 'doc-top + 54doc = vp-top',
-        to: 'doc-top + 57doc = vp-top',
+        from: 'doc-top + 52doc = vp-top',
+        to: 'doc-top + 55doc = vp-top',
         cssFrom: {
                'left': '20.001%',
                'opacity': '1',
@@ -1043,8 +1043,8 @@ $('.planes3').scroolly([
         }
     },
     {
-        from: 'doc-top + 59doc = vp-top',
-        to: 'doc-top + 64doc = vp-top',
+        from: 'doc-top + 55doc = vp-top',
+        to: 'doc-top + 62doc = vp-top',
         css: {
                'left': '43.001%',
                'opacity': '1',
@@ -1053,7 +1053,7 @@ $('.planes3').scroolly([
         },
     },
     {
-        from: 'doc-top + 64doc = vp-top',
+        from: 'doc-top + 62doc = vp-top',
         to: 'doc-top + 67doc = vp-top',
         cssFrom: {
                'left': '43.001%',
@@ -1091,7 +1091,7 @@ $('.planes4').scroolly([
     },
     {
         from: 'doc-top + 67doc = vp-top',
-        to: 'doc-top + 74doc = vp-top',
+        to: 'doc-top + 70doc = vp-top',
         cssFrom: {
                'left': '20.001%',
                'opacity': '1',
@@ -1106,8 +1106,8 @@ $('.planes4').scroolly([
         }
     },
     {
-        from: 'doc-top + 74doc = vp-top',
-        to: 'doc-top + 76doc = vp-top',
+        from: 'doc-top + 70doc = vp-top',
+        to: 'doc-top + 77doc = vp-top',
         css: {
                'left': '43.001%',
                'opacity': '1',
@@ -1116,8 +1116,8 @@ $('.planes4').scroolly([
         },
     },
     {
-        from: 'doc-top + 76doc = vp-top',
-        to: 'doc-top + 79doc = vp-top',
+        from: 'doc-top + 77doc = vp-top',
+        to: 'doc-top + 80doc = vp-top',
         cssFrom: {
                'left': '43.001%',
                'opacity': '1',
@@ -1132,7 +1132,7 @@ $('.planes4').scroolly([
         }
     },
     {
-        from: 'doc-top + 79doc = vp-top',
+        from: 'doc-top + 80doc = vp-top',
         to: 'doc-top + 100doc = vp-top',
         css: {
             'left': '120.001%',
@@ -1154,7 +1154,7 @@ $('.planes5').scroolly([
     },
     {
         from: 'doc-top + 80doc = vp-top',
-        to: 'doc-top + 84doc = vp-top',
+        to: 'doc-top + 83doc = vp-top',
         cssFrom: {
                'left': '20.001%',
                'opacity': '1',
@@ -1169,7 +1169,7 @@ $('.planes5').scroolly([
         }
     },
     {
-        from: 'doc-top + 84doc = vp-top',
+        from: 'doc-top + 83doc = vp-top',
         to: 'doc-top + 100doc = vp-top',
         css: {
             'left': '43.001%',
