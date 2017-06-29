@@ -31,7 +31,7 @@ $(document).keydown(function( event ) {
    firstFn(-1, 1500);
   }
 });
-var position = [0, 3000, 6700, 9400, 11420, 14800, 17800, 19020];
+var position = [0, 3000, 6500, 9000, 11000, 14700, 17800, 19220];
 var ps = ps || 0;
 function secondFn(e, speedSc) {
   flag = false;
@@ -1154,7 +1154,7 @@ $('.planes5').scroolly([
     },
     {
         from: 'doc-top + 80doc = vp-top',
-        to: 'doc-top + 83doc = vp-top',
+        to: 'doc-top + 85doc = vp-top',
         cssFrom: {
                'left': '20.001%',
                'opacity': '1',
@@ -1169,7 +1169,7 @@ $('.planes5').scroolly([
         }
     },
     {
-        from: 'doc-top + 83doc = vp-top',
+        from: 'doc-top + 85doc = vp-top',
         to: 'doc-top + 100doc = vp-top',
         css: {
             'left': '43.001%',

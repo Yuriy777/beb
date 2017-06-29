@@ -1564,7 +1564,8 @@ PRELOADER STYLING
     color: #fece0b;
     text-transform: uppercase;
     display: block;
-    margin-top: 7px; }
+    margin-top: 7px;
+    text-shadow: 0 0 1px rgba(50, 75, 102, 0.7); }
   .s2texth .fontfo {
     color: #f78321; }
 
