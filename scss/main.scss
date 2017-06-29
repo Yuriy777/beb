@@ -774,12 +774,15 @@ PRELOADER STYLING
 .cs-s2 {
   .s2texth {
   font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 1px;
   text-align: center;
   color: #fff;
   text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
    @include media ('<=fullsc') {
       padding: 20px 30px;
-      font-size: 19px;
+      font-size: 22px;
+      line-height: 26px;
     }
   @include media ('<=desktop') {
       text-shadow: 2px 4px 3px rgba(50, 75, 102, 0.3), 0 0 1px rgba(50, 75, 102, 0.7);
@@ -825,6 +828,7 @@ PRELOADER STYLING
     color: #fece0b;
     text-transform: uppercase;
     display: block;
+    margin-top: 7px;
   }
   .fontfo {
     color: #f78321;
@@ -860,11 +864,11 @@ PRELOADER STYLING
   .s2-headsection {
     top:0;
     left: 0;
-    max-width: 715px;
+    max-width: 800px;
     margin: 0 auto -200px;
     padding: 0;
     @include media ('<=fullsc') {
-      max-width: 530px;
+      max-width: 653px;
       margin: 0 auto -158px;
     }
     @include media ('<=desktop') {
@@ -898,6 +902,9 @@ PRELOADER STYLING
     @include media ('<=fullsc') {
       width: 768px;  
       padding: 142px 20px 116px;
+    }
+    @include media ('<=desktop') {
+      padding: 153px 20px 116px;
     }
     @include media ('<=tablet') {
       width: 100%;  

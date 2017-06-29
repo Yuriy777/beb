@@ -24,7 +24,7 @@ $(document).on('wheel MozMousePixelScroll mousewheel DOMMouseScroll durationThre
 $(document).keydown(function( event ) {
   if ( event.which == 40 ) {
    event.preventDefault();
-   firstFn(1, 3000);
+   firstFn(1, 2000);
   }
   if ( event.which == 38 ) {
    event.preventDefault();
@@ -251,13 +251,13 @@ $('.land').scroolly([
 $('.mountains-background').scroolly([
     {
         from: 'doc-top',
-        to: 'doc-top + 37doc = vp-top',
+        to: 'doc-top + 17doc = vp-top',
          css: {
             'bottom': '-0%'
         }
     },
     {
-        from: 'doc-top + 37doc = vp-top',
+        from: 'doc-top + 17doc = vp-top',
         to: 'doc-top + 67doc = vp-top',
          cssFrom: {
             'bottom': '-0%'
@@ -278,13 +278,13 @@ $('.mountains-background').scroolly([
 $('.mountains-front').scroolly([
     {
         from: 'doc-top',
-        to: 'doc-top + 37doc = vp-top',
+        to: 'doc-top + 17doc = vp-top',
          css: {
             'bottom': '-0%'
         }
     },
     {
-        from: 'doc-top + 37doc = vp-top',
+        from: 'doc-top + 17doc = vp-top',
         to: 'doc-top + 67doc = vp-top',
          cssFrom: {
             'bottom': '-0%'
