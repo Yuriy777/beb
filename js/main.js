@@ -38,6 +38,7 @@ var position = [0, 3000, 6700, 9400, 11420, 14800, 17800, 19020];
 var ps = ps || 0;
 function secondFn(e, speedSc) {
     console.log('f2');
+    console.log('position in array begin' + ' ' + ps);
   flag = false;
    var promise = new Promise(function(a, d)  {
     var heightH = $(window).scrollTop();
@@ -63,7 +64,7 @@ function secondFn(e, speedSc) {
         ps = 6;
     }
     if (19000 < heightH) {
-         ps = 7;
+        ps = 7;
     }
     ps = ps + e;
     (ps < 0) ? (ps = 0) : ps;
@@ -76,6 +77,7 @@ function secondFn(e, speedSc) {
     flag = true;
   });
   console.log('f3');
+  console.log('position in array end' + ' ' + ps);
 }
 
 $(document).ready(function(){

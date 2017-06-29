@@ -1827,7 +1827,8 @@ section.general-th .bottom-background:after {
   width: 70%; }
 
 .planes5 {
-  position: absolute; }
+  position: absolute;
+  z-index: 2; }
 
 .s2texth {
   text-align: left; }
