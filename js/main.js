@@ -6,7 +6,7 @@ function firstFn(e, speedSc){
   if(!flag){
     return;  
   }
-  console.log(22);
+  console.log('f1');
   secondFn(e, speedSc);
 }
 $(document).on('wheel MozMousePixelScroll mousewheel DOMMouseScroll durationThreshold verticalDistanceThreshold', function (e) {
@@ -15,9 +15,11 @@ $(document).on('wheel MozMousePixelScroll mousewheel DOMMouseScroll durationThre
     //if the delta value is negative, the user is scrolling down
     $('body').unbind('wheel MozMousePixelScroll mousewheel DOMMouseScroll durationThreshold verticalDistanceThreshold');
     if (delta < 0) {
+        console.log('event scroll bottom');
         firstFn(1, 3000);
 
     } else {
+        console.log('event scroll top');
         firstFn(-1, 1000);
     }
     
@@ -29,39 +31,40 @@ $(document).keydown(function( event ) {
   }
   if ( event.which == 38 ) {
    event.preventDefault();
-   firstFn(-1, 1000);
+   firstFn(-1, 1500);
   }
 });
 var position = [0, 3000, 6700, 9400, 11420, 14800, 17800, 19020];
 var ps = ps || 0;
 function secondFn(e, speedSc) {
+    console.log('f2');
   flag = false;
    var promise = new Promise(function(a, d)  {
     var heightH = $(window).scrollTop();
-    // if (heightH < 2200 ) {
-    //     ps = 0;
-    // }
-    // if ( heightH < 6000  && heightH > 2200) {
-    //     ps = 1;
-    // }
-    // if (6000 < heightH && 7400 > heightH) {
-    //     ps = 2;
-    // }
-    // if (7400 < heightH && 10000 > heightH) {
-    //     ps = 3;
-    // }
-    // if (10000 < heightH && 12300 > heightH) {
-    //     ps = 4;
-    // }
-    // if (12300 < heightH && 14900 > heightH) {
-    //     ps = 5;
-    // }
-    // if (14900 < heightH && 19000 > heightH) {
-    //     ps = 6;
-    // }
-    // if (19000 < heightH) {
-    //      ps = 7;
-    // }
+    if (heightH < 2200 ) {
+        ps = 0;
+    }
+    if ( heightH < 6000  && heightH > 2200) {
+        ps = 1;
+    }
+    if (6000 < heightH && 7400 > heightH) {
+        ps = 2;
+    }
+    if (7400 < heightH && 10000 > heightH) {
+        ps = 3;
+    }
+    if (10000 < heightH && 12300 > heightH) {
+        ps = 4;
+    }
+    if (12300 < heightH && 14900 > heightH) {
+        ps = 5;
+    }
+    if (14900 < heightH && 19000 > heightH) {
+        ps = 6;
+    }
+    if (19000 < heightH) {
+         ps = 7;
+    }
     ps = ps + e;
     (ps < 0) ? (ps = 0) : ps;
     (ps > 7) ? (ps = 7) : ps;
@@ -72,10 +75,11 @@ function secondFn(e, speedSc) {
   }).then(function() {
     flag = true;
   });
+  console.log('f3');
 }
 
 $(document).ready(function(){
-    $('body').animate({scrollTop: 0 }, 2000, 'swing');
+    $('body').animate({scrollTop: 0 }, 1000, 'swing');
 });
 
 $('.section').scroolly([
