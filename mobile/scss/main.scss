@@ -1137,8 +1137,9 @@ section.general-th {
   position: absolute;
   text-align: center;
   padding: 30px 50px;
-  background: url(../images/border2.png) no-repeat 50% 50%;
-  background-size: 100% 100%;
+  border: 2px dashed #fff;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, .2);
   @include media ('<=widescreen') {
     padding: 0;
   }

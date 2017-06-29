@@ -6,7 +6,6 @@ function firstFn(e, speedSc){
   if(!flag){
     return;  
   }
-  console.log('f1');
   secondFn(e, speedSc);
 }
 $(document).on('wheel MozMousePixelScroll mousewheel DOMMouseScroll durationThreshold verticalDistanceThreshold', function (e) {
@@ -15,12 +14,10 @@ $(document).on('wheel MozMousePixelScroll mousewheel DOMMouseScroll durationThre
     //if the delta value is negative, the user is scrolling down
     $('body').unbind('wheel MozMousePixelScroll mousewheel DOMMouseScroll durationThreshold verticalDistanceThreshold');
     if (delta < 0) {
-        console.log('event scroll bottom');
         firstFn(1, 3000);
 
     } else {
-        console.log('event scroll top');
-        firstFn(-1, 1000);
+        firstFn(-1, 1500);
     }
     
 });
@@ -37,8 +34,6 @@ $(document).keydown(function( event ) {
 var position = [0, 3000, 6700, 9400, 11420, 14800, 17800, 19020];
 var ps = ps || 0;
 function secondFn(e, speedSc) {
-    console.log('f2');
-    console.log('position in array begin' + ' ' + ps);
   flag = false;
    var promise = new Promise(function(a, d)  {
     var heightH = $(window).scrollTop();
@@ -76,8 +71,6 @@ function secondFn(e, speedSc) {
   }).then(function() {
     flag = true;
   });
-  console.log('f3');
-  console.log('position in array end' + ' ' + ps);
 }
 
 $(document).ready(function(){
@@ -258,13 +251,13 @@ $('.land').scroolly([
 $('.mountains-background').scroolly([
     {
         from: 'doc-top',
-        to: 'doc-top + 47doc = vp-top',
+        to: 'doc-top + 37doc = vp-top',
          css: {
             'bottom': '-0%'
         }
     },
     {
-        from: 'doc-top + 47doc = vp-top',
+        from: 'doc-top + 37doc = vp-top',
         to: 'doc-top + 67doc = vp-top',
          cssFrom: {
             'bottom': '-0%'
@@ -285,13 +278,13 @@ $('.mountains-background').scroolly([
 $('.mountains-front').scroolly([
     {
         from: 'doc-top',
-        to: 'doc-top + 47doc = vp-top',
+        to: 'doc-top + 37doc = vp-top',
          css: {
             'bottom': '-0%'
         }
     },
     {
-        from: 'doc-top + 47doc = vp-top',
+        from: 'doc-top + 37doc = vp-top',
         to: 'doc-top + 67doc = vp-top',
          cssFrom: {
             'bottom': '-0%'
